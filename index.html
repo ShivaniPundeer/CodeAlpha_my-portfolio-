@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivani Pundeer — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Spine (nav) ===== -->
+  <header class="spine" id="spine">
+    <div class="spine-top">
+      <span class="spine-name">Shivani&nbsp;Pundeer</span>
+    </div>
+    <nav class="spine-nav" aria-label="Section navigation">
+      <a href="#about"><span class="dot"></span>About</a>
+      <a href="#skills"><span class="dot"></span>Skills</a>
+      <a href="#work"><span class="dot"></span>Work</a>
+      <a href="#resume"><span class="dot"></span>Resume</a>
+      <a href="#contact"><span class="dot"></span>Contact</a>
+    </nav>
+    <button class="spine-toggle" id="spineToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <p class="eyebrow">MCA candidate — Bhagwant Global University</p>
+      <h1 class="hero-name">Shivani Pundeer</h1>
+      <p class="hero-line">I build small, working things in Java, Python and JavaScript —
+        then write down clearly what they do.</p>
+      <div class="hero-meta">
+        <div>
+          <span class="hero-meta-label">Currently</span>
+          <span class="hero-meta-value">MCA, 2024–2026</span>
+        </div>
+        <div>
+          <span class="hero-meta-label">Based in</span>
+          <span class="hero-meta-value">Uttarakhand, India</span>
+        </div>
+        <div>
+          <span class="hero-meta-label">Looking for</span>
+          <span class="hero-meta-value">Entry-level IT roles</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <h2 class="section-title">About</h2>
+      <div class="section-body">
+        <p>I'm a Computer Applications student finishing my MCA, with a BCA before
+          it — both at Bhagwant Global University. I like the part of programming
+          where a feature finally clicks into place after three broken versions of it,
+          and I'm just as comfortable writing up how something works as I am building it.</p>
+        <p>Right now I'm looking for an entry-level IT role where I can keep
+          learning while contributing to real, shipped work.</p>
+      </div>
+      <dl class="fact-list">
+        <div><dt>Master of Computer Applications</dt><dd>Bhagwant Global University · 2024–2026</dd></div>
+        <div><dt>Bachelor of Computer Applications</dt><dd>Bhagwant Global University · 2021–2024</dd></div>
+        <div><dt>Languages</dt><dd>English, Hindi</dd></div>
+      </dl>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Working style</h3>
+          <ul>
+            <li>Quick learner</li>
+            <li>Problem solving</li>
+            <li>Team player</li>
+            <li>Time management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Work / Projects ===== -->
+    <section class="section" id="work">
+      <h2 class="section-title">Work</h2>
+      <p class="section-intro">A few things I've built, roughly in the order I built them.</p>
+
+      <ol class="project-list">
+        <li class="project">
+          <span class="project-index">01</span>
+          <div class="project-body">
+            <h3>Restaurant Management System</h3>
+            <p>A system for handling orders, tables and billing for a restaurant
+              front and back of house, built as an academic project.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="project-index">02</span>
+          <div class="project-body">
+            <h3>Calculator</h3>
+            <p>A clean, keyboard-friendly calculator for everyday arithmetic,
+              built while working through CodeAlpha's front-end track.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://shivanipundeer.github.io/CodeAlpha_Build-a-Calculator-/" target="_blank" rel="noopener">View project ↗</a>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="project-index">03</span>
+          <div class="project-body">
+            <h3>Image Gallery</h3>
+            <p>A responsive gallery with filtering and a lightbox view for
+              browsing a set of images.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://shivanipundeer.github.io/CodeAlpha_Image--Gallery/" target="_blank" rel="noopener">View project ↗</a>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="project-index">04</span>
+          <div class="project-body">
+            <h3>Music Player</h3>
+            <p>A small in-browser music player with play, pause and track
+              controls.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://shivanipundeer.github.io/CodeAlpha_Music-player/" target="_blank" rel="noopener">View project ↗</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Resume ===== -->
+    <section class="section" id="resume">
+      <h2 class="section-title">Resume</h2>
+      <div class="resume-box">
+        <div>
+          <h3>Shivani Pundeer — Resume</h3>
+          <p>Education, skills and a short career objective, on one page.</p>
+        </div>
+        <a class="resume-btn" href="resume.pdf" download>Download PDF ↓</a>
+      </div>
+      <p class="resume-note">Add your resume file to this folder as <code>resume.pdf</code> to make the button work.</p>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-intro">Happy to talk about roles, internships or just Java bugs.</p>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:shivanipundeer433@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">shivanipundeer433@gmail.com</span>
+        </a>
+        <a class="contact-item" href="tel:+916398394895">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 6398394895</span>
+        </a>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Uttarakhand, India</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Shivani Pundeer</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
+  
